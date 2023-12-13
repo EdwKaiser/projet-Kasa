@@ -1,0 +1,40 @@
+
+main {
+    margin: 2.5vw 5vw 2.5vw 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+    &__img{
+        border-radius: 25px;
+        height: 223px;
+        width: 100%;
+        object-fit: cover ;
+        filter: brightness(70%);
+    }
+    &__txt{
+        position: absolute;
+        padding: 16px;
+        p{
+        color: rgb(255, 255, 255);
+
+        font-weight: 500;
+        font-size: 5vw;
+        
+        line-height: 100%
+        }
+
+    }
+}
+

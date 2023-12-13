@@ -1,0 +1,21 @@
+.footer {
+    left: 0;
+    margin: 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding-top:60px;
+    align-items: center;
+    gap: 30px;
+    img {
+        height: 40px;
+    }
+    p {
+        color: white;
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+}

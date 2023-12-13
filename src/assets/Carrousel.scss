@@ -1,0 +1,54 @@
+.carrousel {
+
+    .carrousel__pictures{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+
+        .carrousel__button {
+            display: flex;
+            width: 100%;
+            justify-content:space-between;
+            position: absolute;
+            & button {
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+            }
+            &--right {
+                svg{
+                    transform: rotate(90deg);
+                    width: 10vw;
+                    height: 10vw;
+                }
+            }
+            &--left {
+                svg {
+                    transform: rotate(-90deg);
+                    width: 10vw;
+                    height: 10vw;
+                }
+            }
+        }
+        &--picture {
+            height: 415px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+        &--counter {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            bottom: 25px;
+            p{
+                color: white;
+
+            }
+        }
+        
+
+    }
+}
+
